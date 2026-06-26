@@ -1,3 +1,5 @@
+
+
 # ESP32-S3 Flappy Bird Engine
 
 A lightweight, hardware-accelerated Flappy Bird game logic loop written in C++ for the ESP32-S3 microcontroller and optimized for a 128x32 pixel SSD1306 OLED display.
@@ -5,7 +7,7 @@ A lightweight, hardware-accelerated Flappy Bird game logic loop written in C++ f
 ## Hardware Demonstration
 Below is an operational demonstration of the collision matrix and physics loops rendering on the physical hardware module:
 
-
+[![Watch the demonstration](https://img.youtube.com/vi/aQj-wsQlQz8/maxresdefault.jpg)](https://youtu.be/aQj-wsQlQz8)
 
 ## Hardware Specifications
 - **Microcontroller:** ESP32-S3
