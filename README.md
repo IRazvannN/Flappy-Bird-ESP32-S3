@@ -35,7 +35,7 @@ Boundary validations enforce coordinate envelope intersections against static vi
          [Lower Pipe Block] -> (gapY + GAP/2 <= y <= SCREEN_HEIGHT)
 </pre>
 
-On every input frame, the active vector configurations are processed against eight unique index combinations covering horizontal rows, vertical columns, and diagonals.
+On every input frame, the active vector configurations are validated against these dynamic horizontal spatial bounds. If the scalar coordinates intersect the defined pipeline array limits, the evaluation thread drops the state engine into the game-over condition sequence.
 
 ## Software Dependencies
 - Arduino IDE (ESP32 Core Package v2.x or later)
